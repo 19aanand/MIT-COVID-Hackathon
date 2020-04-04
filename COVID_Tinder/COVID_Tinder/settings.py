@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '11h3i5*&d3reaf_)0s)998#(^p=n6%-5f!1hdkgt574rx%9fv#'
+SECRET_KEY = 'pca_5$pm^ss)9uc$c^l703-oflwrky!qo+_&4g!scqyt&xo9k('
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -54,7 +54,7 @@ ROOT_URLCONF = 'COVID_Tinder.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join("C:/Users/adit_/Documents/GitHub/MIT-COVID-Hackathon/COVID_Tinder/homepage/templates")], 
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

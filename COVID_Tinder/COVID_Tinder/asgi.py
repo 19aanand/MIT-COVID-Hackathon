@@ -1,5 +1,5 @@
 """
-ASGI config for COVID_Tinder project.
+ASGI config for FirstDjangoProject project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
